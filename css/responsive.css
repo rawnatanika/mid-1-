@@ -1,0 +1,6 @@
+@media (max-width: 768px){
+	.strict-menu ul{
+		display: block;
+		float: right;
+	}
+}

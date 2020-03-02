@@ -1,0 +1,172 @@
+body{
+	font-family: 'tahoma';
+}
+/* header area */
+a:hover{
+	text-decoration: none;
+}
+.header-area{
+		background-image: url('images/header.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+}
+.header-overlay{
+	background-color: rgb(9, 8, 8, 0.75);
+	padding: 10px 0;
+}
+.header-top{
+	padding: 25px 0px;
+}
+.menu{}
+.menu ul li{
+	padding: 10px 20px;
+}
+.menu ul li a{
+	color: #f6f6f6;
+	text-transform: capitalize;
+	text-decoration: none;
+	position: relative;
+}
+.menu ul li a:hover{
+	
+}
+.menu ul li a:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #0ff4a1;
+	position: absolute;
+	top: 100%;
+	left:0;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+.menu ul li a:hover:after{
+	width: 100%;
+}	
+.header-bottom{
+	color: #f6f6f6;
+	padding: 180px 0;
+
+}
+.header-text{
+
+}
+.header-text h3{
+	font-size: 35px;
+}
+.header-text p{
+	font-size: 18px;
+}
+.header-btn{
+	margin-top: 40px;
+}
+.header-btn a{
+	color: #f6f6f6;
+	background-color: #0ff4a1;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.header-btn a:hover{
+	background-color: #f6f6f6;
+	color: #0ff4a1;
+	-webkit-transition: .8s;
+	-moz-transition: .8s;
+}
+/* about area */
+.about-area{
+	background-color: #ebebeb;
+	padding: 150px 0px;
+}
+.about-left{
+	color: #9a9696;
+}
+.about-left h4{
+	font-size: 25px;
+	text-transform:capitalize;
+}
+.about-left p{
+	font-size: 15px;
+}
+.about-left a{
+	color: #2bc88a;
+}
+/* portfoilio area */
+.portfolio-area{
+	background-color: #fff;
+	padding: 50px 0;
+}
+.section-title{
+	text-align: center;
+	padding: 20px 0px;
+}
+.section-title h2{
+	color: #9a9696;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.portfolio-item{}
+.portfolio-image{
+	margin-bottom: 30px ;
+}
+/* Team area */
+.team-area{
+	background-color: #ebebeb;
+	padding: 15px 0;
+}
+.member-name{
+	color: #777272;
+}
+.member-name h6{
+	margin: 0;
+	font-size: 20px;
+}
+.member-name span{
+	font-size: 15px;
+}
+/* Team area ends */
+/* contact area */
+.contact-area{
+	background-image: url('images/successbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0 50px;
+
+}
+.contact-form textarea{
+	height: 150px;
+	background-color: transparent;
+	border: 1px solid #e1e1e1;
+	border-radius: 0;
+
+}
+.contact-form input{
+	background-color: #0af68f;
+	border: none;
+	margin-top: 20px;
+	color: #fff;
+	padding: 6px 30px;
+	border-radius: 5px;
+}
+.contact-form input:hover{
+	background-color: #fff;
+	color: #0af68f;
+	-webkit-transition:.8s;
+	-moz-transition:.8s;
+	transition:.8s;
+	cursor: pointer;
+}
+/* footer area */
+.footer-area{
+	text-align: center;
+}
+.footer-area p{
+	color: #d1cccc;
+	margin:0;
+	padding: 25px 0:;
+
+}
